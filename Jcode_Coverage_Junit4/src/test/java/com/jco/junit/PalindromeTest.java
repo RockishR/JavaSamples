@@ -1,35 +1,15 @@
-package com.jco;
+package com.jco.junit;
 
 import static org.junit.Assert.assertTrue;
 
-//import static org.junit.Assert.assertTrue;
-
-import java.io.File;
-import java.io.IOException;
-
 import org.junit.Test;
 
-//import org.junit.Test;
-
-/*import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
-*/
+import com.jco.Palindrome;
 
 public class PalindromeTest {
 
-/*	@BeforeEach
-	void setUp() throws Exception {
-	}
-
-	@AfterEach
-	void tearDown() throws Exception {
-	}
-*/
-	//@Test
-/*	public void testIsPalindrome() {
+/*	@Test
+	public void testIsPalindrome() {
 		
 		Palindrome palindromeTester = new Palindrome();
 
@@ -45,5 +25,4 @@ public class PalindromeTest {
 	    assertTrue(palindromeTester.isPalindrome(""));
 	}
 	
-
 }
