@@ -1,4 +1,4 @@
-package com.jco.junit;
+package com.jco;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
