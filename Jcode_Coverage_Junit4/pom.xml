@@ -3,7 +3,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.jacoco.test</groupId>
     <artifactId>maven-code-coverage</artifactId>
@@ -62,15 +61,15 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <rule>
-                                    <element>PACKAGE</element>
-                                    <limits>
-                                        <limit>
-                                            <counter>LINE</counter>
-                                            <value>COVEREDRATIO</value>
-                                            <minimum>0.6</minimum>
-                                        </limit>
-                                    </limits>
+                             <rule>
+                                 <element>PACKAGE</element>
+                                   <limits>
+                                     <limit>
+                                       <counter>LINE</counter>
+                                       <value>COVEREDRATIO</value>
+                                       <minimum>0.6</minimum>
+                                     </limit>
+                                   </limits>
                                 </rule>
                             </rules>
                         </configuration>
