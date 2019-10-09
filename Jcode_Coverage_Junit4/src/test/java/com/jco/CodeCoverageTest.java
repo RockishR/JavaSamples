@@ -37,4 +37,5 @@ public class CodeCoverageTest {
 	public void tearDown() {
 	System.out.println("Tear Down Method call.");
 	}
+
 }
